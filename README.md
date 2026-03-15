@@ -5,6 +5,9 @@ Personal portfolio and infrastructure playground for Harshit Mani Tripathi.
 This repository contains the source code and infrastructure configuration for hudater.dev.  
 The project is designed to demonstrate reproducible infrastructure, CI/CD automation, and edge deployments.
 
+> [!NOTE]
+> The current page is a simple HTML+CSS webpage, final website would follow the below given plan once I have enough time
+
 ---
 
 ## Architecture Overview
