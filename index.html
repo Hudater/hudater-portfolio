@@ -110,7 +110,9 @@
             <h2 id="about-heading" class="section-title">About</h2>
             <div class="prose">
                 <p>
-                    I work primarily in my homelab, where I design and run infrastructure end to end.
+                    I'm a DevOps intern at <strong>Unstop</strong> (since March 2026), where I work on infrastructure
+                    automation and cloud deployments.
+                    I also maintain a hybrid homelab where I design and run infrastructure end to end.
                     Most experiments start there before they become repeatable systems.
                 </p>
                 <p>
@@ -126,6 +128,27 @@
             </div>
         </section>
 
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section anim-fade-up" aria-labelledby="experience-heading">
+            <h2 id="experience-heading" class="section-title">Experience</h2>
+            <ol class="experience-list" role="list">
+                <li class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-role">DevOps Intern</h3>
+                        <span class="experience-company">Unstop</span>
+                    </div>
+                    <span class="experience-date">March 2026 · Present</span>
+                    <ul class="experience-bullets" role="list">
+                        <li>Built a Kubernetes-based developer platform POC on AWS EKS using Terraform and Helm,
+                            provisioning isolated workspaces for 100+ users</li>
+                        <li>Debugged a silent PVC failure traced to missing IRSA permissions on the EBS CSI driver</li>
+                        <li>Refactored Terraform modules to decouple cluster infrastructure from application layer</li>
+                        <li>Work across AWS, Kubernetes, and infrastructure-as-code daily</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
         <!-- SKILLS -->
         <section id="skills" class="section anim-fade-up" aria-labelledby="skills-heading">
             <h2 id="skills-heading" class="section-title">Skills</h2>
@@ -136,6 +159,7 @@
                     <ul class="tag-list" role="list">
                         <li><button type="button" class="tag tag-button">Proxmox</button></li>
                         <li><button type="button" class="tag tag-button">OCI</button></li>
+                        <li><button type="button" class="tag tag-button">AWS</button></li>
                         <li><button type="button" class="tag tag-button">Docker</button></li>
                         <li><button type="button" class="tag tag-button">Linux</button></li>
                     </ul>
@@ -144,11 +168,21 @@
                 <div class="skill-group">
                     <h3 class="skill-group-label">IaC &amp; Automation</h3>
                     <ul class="tag-list" role="list">
-                        <li><button type="button" class="tag tag-button">OpenTofu</button></li>
                         <li><button type="button" class="tag tag-button">Terraform</button></li>
+                        <li><button type="button" class="tag tag-button">OpenTofu</button></li>
+                        <li><button type="button" class="tag tag-button">Helm</button></li>
                         <li><button type="button" class="tag tag-button">Ansible</button></li>
                         <li><button type="button" class="tag tag-button">GitHub Actions</button></li>
-                        <li><button type="button" class="tag tag-button">HashiCorp Cloud Platform</button></li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3 class="skill-group-label">SRE &amp; Kubernetes</h3>
+                    <ul class="tag-list" role="list">
+                        <li><button type="button" class="tag tag-button">Kubernetes</button></li>
+                        <li><button type="button" class="tag tag-button">EKS</button></li>
+                        <li><button type="button" class="tag tag-button">Incident Response</button></li>
+                        <li><button type="button" class="tag tag-button">Kubectl</button></li>
                     </ul>
                 </div>
 
@@ -181,15 +215,6 @@
                         <li><button type="button" class="tag tag-button">Python</button></li>
                         <li><button type="button" class="tag tag-button">Bash</button></li>
                         <li><button type="button" class="tag tag-button">JavaScript</button></li>
-                    </ul>
-                </div>
-
-                <div class="skill-group">
-                    <h3 class="skill-group-label">SRE</h3>
-                    <ul class="tag-list" role="list">
-                        <li><button type="button" class="tag tag-button">Incident Response</button></li>
-                        <li><button type="button" class="tag tag-button">Kubectl</button></li>
-                        <li><button type="button" class="tag tag-button">Kubernetes</button></li>
                     </ul>
                 </div>
 
